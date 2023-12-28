@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Seaside Hotel</title>
+        <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <!-- CSS Files
+        ================================================== -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" id="bootstrap">
+        <link rel="stylesheet" href="css/plugins.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/color.css" type="text/css">
+
+        <!-- color scheme -->
+        <link rel="stylesheet" href="css/colors/brown.css" type="text/css" id="colors">
+    </head>
+
+    <body>
+        
+        <div id="wrapper">
+            <!-- header begin -->
+            <header class="header-fullwidth menu-expand transparent">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo" src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <!-- logo close -->
+
+                            <!-- small button begin -->
+                            <div id="mo-button-open" class="mo-bo-s1">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <!-- small button close -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header close -->
+
+            <!-- menu overlay begin -->
+            <div id="menu-overlay" class="slideDown">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                            <div id="mo-button-close">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                            </div>
+
+                            <div class="pt80 pb80">
+                                <div class="mo-nav text-center">
+                                    <a href="index.html">
+                                        <img class="logo" src="images/logo.png" alt="">
+                                    </a>
+
+                                    <div class="spacer-single"></div>
+
+                                    <!-- mainmenu begin -->
+                                    <ul id="mo-menu">
+                                        <li>
+                                            Home
+                                            <ul>
+                                                <li><a href="index.html">Fullscreen Slider</a></li>
+                                                <li><a href="index-slider-2.html">Fullscreen Slider 2</a></li>
+                                                <li><a href="index-slider-3.html">Fullscreen Slider 3</a></li>
+                                                <li><a href="index-full-page.html">Full Page</a></li>
+                                                <li><a href="index-video-background.html">Fullsreen Video</a></li>
+                                                <li><a href="index-room-slider-1.html">New: Room Slider 1</a></li>
+                                                <li><a href="index-snowy.html">New: Slider + Snow</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li>
+                                            Rooms
+                                            <ul>
+                                                <li><a href="room-2-cols.html">2 Columns</a></li>
+                                                <li><a href="room.html">3 Columns</a></li>
+                                                <li><a href="room-single.html">Room Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="booking.html">Booking</a></li>
+                                        <li><a href="offer.html">Offers</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <!-- mainmenu close -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu overlay close -->
+
+        <div id="background" data-bgimage="url(images/background/9.jpg) fixed"></div>
+        <div id="content-absolute">
+
+            <!-- float text begin -->
+            <div class="float-text">
+                <div class="de_social-icons">
+                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                </div>
+                <span><a href="#">Book Now</a></span>
+            </div>
+            <!-- float text close -->
+            
+            <!-- subheader -->
+            <section id="subheader" class="no-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Tab</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-main" class="no-bg no-top" aria-label="section-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="de-content-overlay">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3>Tab Style 1</h3>
+                                        <div class="spacer30"></div>
+                                        
+                                        <div class="tab-default">
+                                            
+                                            <nav>
+                                              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                                              </div>
+                                            </nav>
+                                            
+                                            <div class="tab-content" id="nav-tabContent">
+                                              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</p></div>
+                                              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem.</p></div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        
+                                        <h3>Tab Style 2</h3>
+                                        <div class="spacer30"></div>
+                                        
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</p></div>
+                                          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem.</p></div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="spacer-single"></div>
+                                    
+                                    <div class="col-md-6">
+                                        <h3>Tab Style 3</h3>
+                                        <div class="spacer30"></div>
+                                        
+                                        <div class="row">
+                                          <div class="col-3">
+                                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                               <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                                               <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                                               <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                                               <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                                             </div>
+                                          </div>
+                                          <div class="col-9">
+                                            <div class="tab-content" id="v-pills-tabContent">
+                                              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-md-6">
+                                        <h3>Tab Style 4</h3>
+                                        <div class="spacer30"></div>
+                                        
+                                        <div class="row">
+                                            <div class="col-9">
+                                            <div class="tab-content" id="v-pills-tab-2Content">
+                                              <div class="tab-pane fade show active" id="v-pills-home-2" role="tabpanel" aria-labelledby="v-pills-home-tab-2"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-profile-2" role="tabpanel" aria-labelledby="v-pills-profile-tab-2"><p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-messages-2" role="tabpanel" aria-labelledby="v-pills-messages-tab-2"><p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem.</p></div>
+                                              <div class="tab-pane fade" id="v-pills-settings-2" role="tabpanel" aria-labelledby="v-pills-settings-tab-2"><p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p></div>
+                                            </div>
+                                          </div>
+                                          
+                                          <div class="col-3">
+                                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                               <button class="nav-link active" id="v-pills-home-tab-2" data-bs-toggle="pill" data-bs-target="#v-pills-home-2" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                                               <button class="nav-link" id="v-pills-profile-tab-2" data-bs-toggle="pill" data-bs-target="#v-pills-profile-2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                                               <button class="nav-link" id="v-pills-messages-tab-2" data-bs-toggle="pill" data-bs-target="#v-pills-messages-2" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                                               <button class="nav-link" id="v-pills-settings-tab-2" data-bs-toggle="pill" data-bs-target="#v-pills-settings-2" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                                             </div>
+                                          </div>
+                                          
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- subheader close -->
+            <!-- footer begin -->
+            <footer class="no-top pl20 pr20">
+                <div class="subfooter">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">&copy; Copyright 2023 - Seaside Hotel by <span class="id-color">Designesia</span></div>
+                            <div class="col-md-6 text-right">
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" id="back-to-top"></a>
+            </footer>
+            <!-- footer close -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal demo</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                Woohoo, you're reading this text in a modal!
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-dismiss="modal">Close</a>
+                <a class="btn-main">Save changes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Static backdrop</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                I will not close if you click outside me. Don't even try to press escape key.
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-dismiss="modal">Close</a>
+                <a class="btn-main">Understood</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="scrollingLongContent" data-bs-keyboard="false" tabindex="-1" aria-labelledby="scrollingLongContentLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="scrollingLongContentLabel">Scrolling long content</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-dismiss="modal">Close</a>
+                <a class="btn-main">Understood</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="scrollableModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="scrollableModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="scrollableModalLabel">Scrollable modal</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                
+                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                
+                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-dismiss="modal">Close</a>
+                <a class="btn-main">Understood</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                Show a second modal and hide this one with the button below.
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+              </div>
+              <div class="modal-body">
+                Hide this modal and show the first with the button below.
+              </div>
+              <div class="modal-footer">
+                <a class="btn-main" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+
+
+        <!-- Javascript Files
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/designesia.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+        <script src="form.js"></script>
+
+    </body>
+</html>

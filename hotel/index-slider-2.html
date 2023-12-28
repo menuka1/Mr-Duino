@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Seaside Hotel</title>
+        <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <!-- CSS Files
+        ================================================== -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" id="bootstrap">
+        <link rel="stylesheet" href="css/plugins.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/color.css" type="text/css">
+
+        <!-- supersized -->
+        <link rel='stylesheet' href='js/supersized/css/supersized.css' type='text/css'>
+        <link rel='stylesheet' href='js/supersized/theme/supersized.shutter.css' type='text/css'>
+
+        <!-- color scheme -->
+        <link rel="stylesheet" href="css/colors/brown.css" type="text/css" id="colors">
+    </head>
+
+    <body>
+        
+        <div id="wrapper">
+            <!-- header begin -->
+            <header class="header-fullwidth menu-expand transparent">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo" src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <!-- logo close -->
+
+                            <!-- small button begin -->
+                            <div id="mo-button-open" class="mo-bo-s1">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <!-- small button close -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header close -->
+
+            <!-- menu overlay begin -->
+            <div id="menu-overlay" class="slideDown">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                            <div id="mo-button-close">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                            </div>
+
+                            <div class="pt80 pb80">
+                                <div class="mo-nav text-center">
+                                    <a href="index.html">
+                                        <img class="logo" src="images/logo.png" alt="">
+                                    </a>
+
+                                    <div class="spacer-single"></div>
+
+                                    <!-- mainmenu begin -->
+                                    <ul id="mo-menu">
+                                        <li>
+                                            Home
+                                            <ul>
+                                                <li><a href="index.html">Fullscreen Slider</a></li>
+                                                <li><a href="index-slider-2.html">Fullscreen Slider 2</a></li>
+                                                <li><a href="index-slider-3.html">Fullscreen Slider 3</a></li>
+                                                <li><a href="index-full-page.html">Full Page</a></li>
+                                                <li><a href="index-video-background.html">Fullsreen Video</a></li>
+                                                <li><a href="index-room-slider-1.html">New: Room Slider 1</a></li>
+                                                <li><a href="index-snowy.html">New: Slider + Snow</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li>
+                                            Rooms
+                                            <ul>
+                                                <li><a href="room-2-cols.html">2 Columns</a></li>
+                                                <li><a href="room.html">3 Columns</a></li>
+                                                <li><a href="room-single.html">Room Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="booking.html">Booking</a></li>
+                                        <li><a href="offer.html">Offers</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <!-- mainmenu close -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu overlay close -->
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+
+            <!-- float text begin -->
+            <div class="float-text">
+                <div class="de_social-icons">
+                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                </div>
+                <span><a href="#">Book Now</a></span>
+            </div>
+            <!-- float text close --> 
+
+            <div class='slider-overlay'></div>
+
+            <div id="slidecaption"></div>
+
+            <div class="container">    
+            <div id="prevthumb"></div>
+                <div id="nextthumb"></div>
+                
+                <!--Arrow Navigation-->
+                <a id="prevslide" class="load-item"></a>
+                <a id="nextslide" class="load-item"></a>
+                
+            <!--Time Bar-->
+                <div id="progress-back" class="load-item">
+                    <div id="progress-bar"></div>
+                </div>
+                <!--Control Bar-->
+                <div id="controls-wrapper" class="load-item">
+                    <div id="controls">
+                        
+                        <a id="play-button"><span id="pauseplay" class="play"></span></a>
+                    
+                        <!--Slide counter-->
+                        <div id="slidecounter">
+                            <span class="slidenumber"></span> / <span class="totalslides"></span>
+                        </div>
+                        
+                        <!--Navigation-->
+                        <ul id="slide-list"></ul>
+                        
+                    </div>
+                </div>
+                </div>
+
+            
+        </div>
+
+        <!-- Javascript Files
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/designesia.js"></script>
+
+        <!-- Supersized -->
+        <script src='js/supersized/js/supersized.3.2.7.js'></script>
+        <script src='js/supersized/theme/supersized.shutter.min.js'></script>
+
+        <script>
+            jQuery(function($){
+                                                        
+                    var slides=[];
+                    slides.push({image : 'images/slider/4.jpg', title : "<div class='slider-text'><h3 class='bg wow fadeInUp' data-wow-delay='.5s'>Welcome to Seaside</h3><h4 class='bg wow fadeInUp' data-wow-delay='.8s'>Enjoy Greatest Pleasure in Our Hotel</h4><a class='btn-line wow fadeInUp' data-wow-delay='1s' href='about.html'><span>Our Facilities</span></a></div>", thumb : '', url : ''});  
+
+                    slides.push({image : 'images/slider/5.jpg', title : "<div class='slider-text'><h3 class='bg wow fadeInUp' data-wow-delay='.5s'>Enjoy Your Moment</h3><h4 class='bg wow fadeInUp' data-wow-delay='.8s'>Enjoy Greatest Pleasure in Our Hotel</h4><a class='btn-line wow fadeInUp' data-wow-delay='1s' href='about.html'><span>Our Facilities</span></a></div>", thumb : '', url : ''});  
+
+                    slides.push({image : 'images/slider/6.jpg', title : "<div class='slider-text'><h3 class='bg wow fadeInUp' data-wow-delay='.5s'>Back to Nature</h3><h4 class='bg wow fadeInUp' data-wow-delay='.8s'>Enjoy Greatest Pleasure in Our Hotel</h4><a class='btn-line wow fadeInUp' data-wow-delay='1s' href='about.html'><span>Our Facilities</span></a></div>", thumb : '', url : ''});  
+
+
+                $.supersized({
+                    // Functionality
+                    slide_interval      :   5000, // Length between transitions
+                    
+                    transition          :   1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                    transition_speed    :   500, // Speed of transition
+                    slide_links         :   'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                    slides              :   slides,
+                    autoplay            :   1,                  
+                    fit_always          :   0,
+                    performance         :   0,
+                    image_protect       :   1        // Disables image dragging and right click with Javascript
+                });
+
+                jQuery("#pauseplay").toggle(
+                function () {
+                    jQuery(this).addClass("pause");
+                },
+                function () {
+                    jQuery(this).removeClass("pause").addClass("play");
+                });
+
+            jQuery("#pauseplay").stop().fadeTo(150, .5);
+            jQuery("#pauseplay").hover(
+                function () {
+                    jQuery(this).stop().fadeTo(150, 1);
+                },
+                function () {
+                    jQuery(this).stop().fadeTo(150, .5);
+                });
+
+            });
+        </script>
+
+    </body>
+</html>
